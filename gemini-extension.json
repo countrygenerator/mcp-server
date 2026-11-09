@@ -1,0 +1,10 @@
+{
+  "name": "country-generator",
+  "version": "1.0.0",
+  "description": "Look up any country's capital, population and borders, or play geography quizzes with your AI.",
+  "mcpServers": {
+    "country-generator": {
+      "httpUrl": "https://countrygenerator.com/mcp"
+    }
+  }
+}

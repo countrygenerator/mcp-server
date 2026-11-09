@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.countrygenerator/mcp-server",
+  "title": "Country Generator",
+  "description": "Look up any country's capital, population and borders, or play geography quizzes with your AI.",
+  "repository": {
+    "url": "https://github.com/countrygenerator/mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://countrygenerator.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://countrygenerator.com/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://countrygenerator.com/icon/mcp-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ]
+}
